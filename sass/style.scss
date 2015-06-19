@@ -1,0 +1,100 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	position: relative;
+	//padding: 10px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.overlay {
+	opacity: 0.75;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	background-color: #333333;
+	display: none;
+	z-index: 10;
+	position: absolute;
+}
+h1 {
+	font-weight: bolder;
+	font-size: 80px;
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+ 	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+.button {
+	position: absolute;
+	z-index: 999;
+}
+.menuHolder {
+	perspective: 300px;
+	width: 20%;
+	height: 100%;
+	max-width: 20%;
+	visibility: hidden;
+}
+.menu {
+	width: 0;
+	background-color: #333000;
+	height: 100%;;
+	position: absolute;
+	z-index: 99;
+	transition: all 0.75s;
+	margin: 0;
+	padding: 0;
+	box-shadow: 10px 10px 20px #333000;
+	overflow: hidden;
+	transform-origin: 100% 55%;
+}
+.menuClose {
+	transform:  rotateY(-90deg);
+	visibility: hidden;
+}
+.menuOpen {
+	width: 100%;
+}
+.pages {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.content {
+	width: 100%;
+	height: 100%;
+	transition: width 0.75s, margin 0.75s;
+	max-width: 100%;
+}
+.contentMenuOpen {
+	width: 80%;
+	margin-left: 20%;
+}
+.home {
+	//background-image: url('images/home.jpg');
+	background-color: #883003;
+}
+.work {
+	//background-image: url('images/work.jpg');
+	background-color: #800333;
+}
+
+#page1 {
+	//background-color: red;
+
+}
+
+#page2 {
+	//background-color: green;
+}
+
+#page3 {
+	//background-color: #0033ff;
+}
