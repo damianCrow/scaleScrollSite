@@ -1,6 +1,13 @@
 {
   "name": "prototype",
   "version": "1.0.0",
+  "description": "scrolling site prototype",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damianCrow/scaleScrollSite.git"
+    },
+    "README":"",
+
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^3.0.0",
@@ -11,6 +18,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "load-grunt-tasks": "^3.1.0"
   },
+
   "main": "Gruntfile.js",
   "scripts": {
    },
